@@ -11,3 +11,16 @@
   padding-top: 50px;
   max-width: 300px;
 }
+
+button {
+  background-color: transparent;
+  color: #eee;
+  border: 0;
+  display: inline-block;
+  width: 100px;
+  cursor: pointer;
+}
+
+button:hover {
+  color: rgb(0, 255, 115);
+}
