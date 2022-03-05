@@ -1,0 +1,26 @@
+.header {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: blue;
+  color: white;
+  line-height: 36px;
+  font-size: 1.3rem;
+}
+
+.title {
+  margin-left: 10px;
+}
+
+.user {
+  display: flex;
+  cursor: pointer;
+}
+
+.avatar > img {
+  margin-left: 20px;
+  height: 40px !important;
+  width: 40px !important;
+  margin-right: 10px;
+  border-radius: 5px;
+}
