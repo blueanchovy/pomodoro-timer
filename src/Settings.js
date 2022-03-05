@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import ReactSlider from "react-slider";
+import BackButton from "./BackButton";
 import "./Settings.css";
 import SettingsContext from "./SettingsContext";
 
@@ -28,6 +29,10 @@ function Settings() {
         max={120}
         onChange={(newValue) => settingsInfo.setBreakMinutes(newValue)}
       />
+
+      <div className="BackButton">
+        <BackButton onClick={() => settingsInfo.setShowSettings(false)} />
+      </div>
     </div>
   );
 }

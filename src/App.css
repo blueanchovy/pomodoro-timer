@@ -1,3 +1,7 @@
+:root {
+  --red: #ff4449;
+}
+
 .app {
   background-color: rgb(75, 23, 122);
   color: #eee;
@@ -23,4 +27,20 @@ button {
 
 button:hover {
   color: rgb(0, 255, 115);
+}
+
+button.with-text {
+  margin-top: 20px;
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 1.4rem;
+  line-height: 36px;
+}
+
+button.with-text svg {
+  width: 36px;
+  float: left;
+  margin-right: 5px;
 }

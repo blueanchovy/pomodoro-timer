@@ -5,9 +5,9 @@ import SettingsContext from "./SettingsContext";
 import Timer from "./Timer";
 
 function App() {
-  const [showSettings, setShowSettings] = useState(true);
-  const [workMinutes, setWorkMinutes] = useState("25");
-  const [breakMinutes, setBreakMinutes] = useState("5");
+  const [showSettings, setShowSettings] = useState(false);
+  const [workMinutes, setWorkMinutes] = useState(25);
+  const [breakMinutes, setBreakMinutes] = useState(5);
 
   return (
     <>
@@ -18,8 +18,8 @@ function App() {
               showSettings,
               setShowSettings,
               workMinutes,
-              breakMinutes,
               setWorkMinutes,
+              breakMinutes,
               setBreakMinutes,
             }}
           >
